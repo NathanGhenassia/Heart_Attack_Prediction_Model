@@ -1,0 +1,4 @@
+[core]
+    remote = versioning
+['remote "versioning"']
+    url = s3://nathan-heart-attack-prediction-model/data_versioning/
