@@ -41,7 +41,6 @@ plt.close()
 y_pred = best_model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 
-
 with open("metrics.txt", 'w') as outfile:
     outfile.write("Training accuracy: %2.1f%%\n" % accuracy)
 
