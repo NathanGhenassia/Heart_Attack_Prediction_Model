@@ -4,7 +4,7 @@ WORKDIR /code
 
 COPY requirements.txt requirements.txt
 
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir requirements.txt
 
 COPY . /code
 
